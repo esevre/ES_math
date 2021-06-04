@@ -1,5 +1,7 @@
+//
+// Created by Erik Sevre on 6/4/21.
+//
 #include <iostream>
-
 #include "eigen/Eigen/Dense"
 
 using Eigen::MatrixXd;
@@ -13,4 +15,3 @@ int main()
     m(1,1) = m(1,0) + m(0,1);
     std::cout << m << std::endl;
 }
-
